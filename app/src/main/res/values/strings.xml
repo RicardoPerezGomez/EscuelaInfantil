@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lion Kids</string>
+    <string name="titulo_splash">LION KIDS</string>
+    <string name="subtitulo_splash">CONECTANDO FAMILIAS</string>
+    <string name="titulo_expandable">BIENVENIDO</string>
+    <string name="login">Login</string>
+    <string name="crear_una_cuenta">CREAR UNA CUENTA</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Agenda</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Ficha ALumn@</string>
+    <string name="menu_profile">Ficha del Alumn@</string>
+    <string name="menu_evaluacion">Evaluación</string>
+
+    <!-- Strings del Template -->
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Registrate</string>
+    <string name="login_name_hint">Nombre</string>
+    <string name= "login_dni_hint">DNI</string>
+    <string name= "login_type_user_hint">Tipo Usuario</string>
+    <string name="login_mobile_number_hint">Movil</string>
+
+
+</resources>

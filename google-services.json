@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "791238910176",
+    "project_id": "escuelasinfantiles-e9e75",
+    "storage_bucket": "escuelasinfantiles-e9e75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791238910176:android:e9bcda3edb3dced1777085",
+        "android_client_info": {
+          "package_name": "com.example.escuelasinfantiles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791238910176-r936g0ej1qerps9utb83kupos6f2mm58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmyd8bQCaX-Zb73XCft7n7Nb6xg50PKkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791238910176-r936g0ej1qerps9utb83kupos6f2mm58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

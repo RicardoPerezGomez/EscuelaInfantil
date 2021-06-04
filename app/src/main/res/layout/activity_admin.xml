@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/parent1.contentLayout"
+    android:background="#00000000"
+    tools:context=".AdminActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Escuelas \nInfantiles"
+                    style="@style/viewParent1.headerText"
+                    android:textSize="50sp"
+                    android:layout_gravity="bottom"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hero"
+                    android:adjustViewBounds="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/maths"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/buscaralumno"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:id="@+id/textViewSub1Title"
+                                android:text="Buscar \nAlumno"
+                                style="@style/viewParent1.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/alumnos"
+
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:id="@+id/textViewSub3Title"
+                                android:text="Listar \nAlumnos"
+                                style="@style/viewParent1.headerText.HomeCardTitle" />
+
+
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/agregaralumno"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:id="@+id/textViewSub5Title"
+                                android:text="Registrar \nAlumno"
+                                style="@style/viewParent1.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/home_ic_chemistry"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="Eliminar \nAlumno"
+                                style="@style/viewParent1.headerText.HomeCardTitle" />
+
+
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/buscarprofesor"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:id="@+id/textViewSub2Title"
+                                android:text="Buscar \nProfesor"
+                                style="@style/viewParent1.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/profesores"
+                                style="@style/homeCardImage" />
+
+                            <TextView
+                                android:id="@+id/textViewSub4Title"
+                                android:text="Listar \nProfesores"
+                                style="@style/viewParent1.headerText.HomeCardTitle" />
+
+
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/agregarprofesor"
+                                style="@style/homeCardImage" />
+
+                            <TextView
+                                android:id="@+id/textViewSub6Title"
+                                android:text="Registrar \nProfesor"
+                                style="@style/viewParent1.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/eliminarprofesor"
+                                style="@style/homeCardImage" />
+
+                            <TextView
+                                android:text="Eliminar \nProfesor"
+                                style="@style/viewParent1.headerText.HomeCardTitle" />
+
+
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

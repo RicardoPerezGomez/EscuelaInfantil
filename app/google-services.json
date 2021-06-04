@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "984203576886",
+    "project_id": "lion-kids-82e95",
+    "storage_bucket": "lion-kids-82e95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984203576886:android:65c2d32b246680ce2b7a97",
+        "android_client_info": {
+          "package_name": "com.example.lionkids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984203576886-q005f5e4lfe6ujr60kqpiafaen8q3iun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lionkids",
+            "certificate_hash": "ccf02e622c7b5ad2469f30740109b29f8a5a102d"
+          }
+        },
+        {
+          "client_id": "984203576886-4rqvmqotu9cjr5lhtlmfktqgj6crp2ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbbVChkmvDEl1-tjjjXcjCM51QwtJjDcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984203576886-4rqvmqotu9cjr5lhtlmfktqgj6crp2ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SpinnerActivity"
+    >
+
+    <TextView
+        android:id="@+id/titulo_bienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/titulo_expandable"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textColor="@color/purple_700" />
+    <TextView
+        android:id="@+id/subtitulo_bienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elige tu Escuela"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/purple_700"
+        />
+
+    <Spinner
+        android:id="@+id/nombre_escuela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/direccion_escuela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+
+        />
+
+</LinearLayout>
